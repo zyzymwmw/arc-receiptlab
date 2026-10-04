@@ -1,0 +1,80 @@
+{
+  "chainId": 5042,
+  "transactionHash": "0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3",
+  "blockNumber": "0x171af35",
+  "retrievedAt": "2026-10-04T13:33:38.147Z",
+  "source": {
+    "kind": "mainnet-recorded",
+    "endpoint": "https://rpc.mainnet.arc.io",
+    "method": "eth_getTransactionReceipt + eth_getTransactionByHash",
+    "description": "Public existing Arc mainnet transaction; not sent by ReceiptLab."
+  },
+  "receipt": {
+    "type": "0x2",
+    "status": "0x1",
+    "cumulativeGasUsed": "0x47037",
+    "logs": [
+      {
+        "address": "0xfffffffffffffffffffffffffffffffffffffffe",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d94e412b81a47bcbaab51217a117d8a07a1fa2e1",
+          "0x000000000000000000000000193f3520fbc1948d46a4cf37f2d1b13ad6c5ea17"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000005719bc2868cf46680",
+        "blockHash": "0xb5991e5988a7724759744da0784c03b4c5e7e912fdb5cb7bc9fef9af543e5467",
+        "blockNumber": "0x171af35",
+        "blockTimestamp": "0x6ac2556e",
+        "transactionHash": "0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3",
+        "transactionIndex": "0x3",
+        "logIndex": "0x7",
+        "removed": false
+      }
+    ],
+    "logsBloom": "0x00000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000002000000100000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000002000000000000001000000000000000000000010000000000000000000080000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000002000000000008000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000",
+    "transactionHash": "0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3",
+    "transactionIndex": "0x3",
+    "blockHash": "0xb5991e5988a7724759744da0784c03b4c5e7e912fdb5cb7bc9fef9af543e5467",
+    "blockNumber": "0x171af35",
+    "gasUsed": "0x5208",
+    "effectiveGasPrice": "0x4a817ef10",
+    "from": "0xd94e412b81a47bcbaab51217a117d8a07a1fa2e1",
+    "to": "0x193f3520fbc1948d46a4cf37f2d1b13ad6c5ea17",
+    "contractAddress": null
+  },
+  "transaction": {
+    "type": "0x2",
+    "chainId": "0x13b2",
+    "nonce": "0x0",
+    "gas": "0x5208",
+    "maxFeePerGas": "0xdf847cd30",
+    "maxPriorityFeePerGas": "0x2710",
+    "to": "0x193f3520fbc1948d46a4cf37f2d1b13ad6c5ea17",
+    "value": "0x5719bc2868cf46680",
+    "accessList": [],
+    "input": "0x",
+    "r": "0xd75923cf4c36ce662e93413594564eb1c648ef04ee02e16d086d72093b1d6f58",
+    "s": "0x6d3f711c6ef65ae508c0e45a801c25d9997b675e654a32925334d7e60e5e99d6",
+    "yParity": "0x1",
+    "v": "0x1",
+    "hash": "0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3",
+    "blockHash": "0xb5991e5988a7724759744da0784c03b4c5e7e912fdb5cb7bc9fef9af543e5467",
+    "blockNumber": "0x171af35",
+    "transactionIndex": "0x3",
+    "from": "0xd94e412b81a47bcbaab51217a117d8a07a1fa2e1",
+    "gasPrice": "0x4a817ef10",
+    "blockTimestamp": "0x6ac2556e"
+  },
+  "schemaVersion": 1,
+  "parserVersion": "0.1.0",
+  "expected": {
+    "method": "Manual verification of source-emitter, address topics, data units and published Arc semantics; independent of the parser.",
+    "systemAmountsAtomic18": [
+      "100420070999370000000"
+    ],
+    "amountsUsdc": [
+      "100.42007099937"
+    ],
+    "movementCount": 1
+  }
+}

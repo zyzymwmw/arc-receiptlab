@@ -1,0 +1,12 @@
+node_modules/
+dist/
+packages/*/dist/
+coverage/
+test-results/
+playwright-report/
+fixtures/
+docs/evidence/
+docs/mainnet-verification.json
+package-lock.json
+.sites-checkout/
+.sites-runtime/

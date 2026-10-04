@@ -1,0 +1,199 @@
+{
+  "verifiedAt": "2026-10-04T13:59:55.809Z",
+  "chainId": 5042,
+  "parserVersion": "0.1.0",
+  "verification": [
+    {
+      "name": "native",
+      "transactionHash": "0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3",
+      "source": {
+        "kind": "live",
+        "retrievedAt": "2026-10-04T13:59:55.010Z",
+        "endpoint": "https://rpc.mainnet.arc.io"
+      },
+      "status": "confirmed",
+      "coverage": "complete",
+      "movements": [
+        {
+          "kind": "transfer",
+          "eventId": "5042:0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3:7",
+          "logIndex": "7",
+          "from": "0xd94e412b81a47bcbaab51217a117d8a07a1fa2e1",
+          "to": "0x193f3520fbc1948d46a4cf37f2d1b13ad6c5ea17",
+          "amountAtomic18": "100420070999370000000",
+          "amountUsdc": "100.42007099937",
+          "evidence": [
+            {
+              "eventId": "5042:0x7b7b918be44fa4ec8ce4368d2cef5316b974e517a09fee60960d6221f74410a3:7",
+              "logIndex": "7",
+              "emitter": "0xfffffffffffffffffffffffffffffffffffffffe",
+              "decimals": 18
+            }
+          ]
+        }
+      ],
+      "fee": {
+        "amountAtomic18": "420000210000000",
+        "amountUsdc": "0.00042000021",
+        "gasUsed": "21000",
+        "effectiveGasPriceAtomic18": "20000010000",
+        "outerSender": "0xd94e412b81a47bcbaab51217a117d8a07a1fa2e1"
+      }
+    },
+    {
+      "name": "erc20",
+      "transactionHash": "0xdb3408e5ed4965c0e402718ee9e81589e17688b485dd29b2f81cb78996418643",
+      "source": {
+        "kind": "live",
+        "retrievedAt": "2026-10-04T13:59:55.512Z",
+        "endpoint": "https://rpc.mainnet.arc.io"
+      },
+      "status": "confirmed",
+      "coverage": "complete",
+      "movements": [
+        {
+          "kind": "transfer",
+          "eventId": "5042:0xdb3408e5ed4965c0e402718ee9e81589e17688b485dd29b2f81cb78996418643:20",
+          "logIndex": "20",
+          "from": "0x89c9c1253149a5109cf7760fe3e192e4bba80745",
+          "to": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "amountAtomic18": "1500000000000000000",
+          "amountUsdc": "1.5",
+          "evidence": [
+            {
+              "eventId": "5042:0xdb3408e5ed4965c0e402718ee9e81589e17688b485dd29b2f81cb78996418643:20",
+              "logIndex": "20",
+              "emitter": "0xfffffffffffffffffffffffffffffffffffffffe",
+              "decimals": 18
+            },
+            {
+              "eventId": "5042:0xdb3408e5ed4965c0e402718ee9e81589e17688b485dd29b2f81cb78996418643:21",
+              "logIndex": "21",
+              "emitter": "0x3600000000000000000000000000000000000000",
+              "decimals": 6
+            }
+          ]
+        }
+      ],
+      "fee": {
+        "amountAtomic18": "3129181564590000",
+        "amountUsdc": "0.00312918156459",
+        "gasUsed": "156459",
+        "effectiveGasPriceAtomic18": "20000010000",
+        "outerSender": "0x89c9c1253149a5109cf7760fe3e192e4bba80745"
+      }
+    },
+    {
+      "name": "multiple",
+      "transactionHash": "0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd",
+      "source": {
+        "kind": "live",
+        "retrievedAt": "2026-10-04T13:59:55.805Z",
+        "endpoint": "https://rpc.mainnet.arc.io"
+      },
+      "status": "confirmed",
+      "coverage": "complete",
+      "movements": [
+        {
+          "kind": "transfer",
+          "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:7",
+          "logIndex": "7",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0x173c4bdd5cf95a935d2b5636c573c5f4df062044",
+          "amountAtomic18": "27000000000000",
+          "amountUsdc": "0.000027",
+          "evidence": [
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:7",
+              "logIndex": "7",
+              "emitter": "0xfffffffffffffffffffffffffffffffffffffffe",
+              "decimals": 18
+            },
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:8",
+              "logIndex": "8",
+              "emitter": "0x3600000000000000000000000000000000000000",
+              "decimals": 6
+            }
+          ]
+        },
+        {
+          "kind": "transfer",
+          "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:10",
+          "logIndex": "10",
+          "from": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+          "to": "0xb322222828d8c3e78ec32093801f0d3523600a65",
+          "amountAtomic18": "2716000000000000",
+          "amountUsdc": "0.002716",
+          "evidence": [
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:10",
+              "logIndex": "10",
+              "emitter": "0xfffffffffffffffffffffffffffffffffffffffe",
+              "decimals": 18
+            },
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:11",
+              "logIndex": "11",
+              "emitter": "0x3600000000000000000000000000000000000000",
+              "decimals": 6
+            }
+          ]
+        },
+        {
+          "kind": "transfer",
+          "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:14",
+          "logIndex": "14",
+          "from": "0xb322222828d8c3e78ec32093801f0d3523600a65",
+          "to": "0xb9b2d319a9249486c0f4c7831f912db5aee4c595",
+          "amountAtomic18": "13000000000000",
+          "amountUsdc": "0.000013",
+          "evidence": [
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:14",
+              "logIndex": "14",
+              "emitter": "0xfffffffffffffffffffffffffffffffffffffffe",
+              "decimals": 18
+            },
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:15",
+              "logIndex": "15",
+              "emitter": "0x3600000000000000000000000000000000000000",
+              "decimals": 6
+            }
+          ]
+        },
+        {
+          "kind": "transfer",
+          "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:17",
+          "logIndex": "17",
+          "from": "0xb322222828d8c3e78ec32093801f0d3523600a65",
+          "to": "0xb5fb80ac2959f35727840950212dd1d0340e52f3",
+          "amountAtomic18": "2703000000000000",
+          "amountUsdc": "0.002703",
+          "evidence": [
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:17",
+              "logIndex": "17",
+              "emitter": "0xfffffffffffffffffffffffffffffffffffffffe",
+              "decimals": 18
+            },
+            {
+              "eventId": "5042:0x503073365a676a9008a146edeb15e684a5c47f25ca60e6a391d0d800702d34cd:18",
+              "logIndex": "18",
+              "emitter": "0x3600000000000000000000000000000000000000",
+              "decimals": 6
+            }
+          ]
+        }
+      ],
+      "fee": {
+        "amountAtomic18": "6330056487000000",
+        "amountUsdc": "0.006330056487",
+        "gasUsed": "316487",
+        "effectiveGasPriceAtomic18": "20001000000",
+        "outerSender": "0xb5fb80ac2959f35727840950212dd1d0340e52f3"
+      }
+    }
+  ]
+}

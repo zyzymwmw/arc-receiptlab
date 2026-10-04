@@ -1,0 +1,24 @@
+{
+  "name": "@receiptlab/core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Source-aware Arc mainnet USDC receipt parsing, exact amounts and read-only retrieval.",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./rpc": {
+      "types": "./dist/rpc.d.ts",
+      "import": "./dist/rpc.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "viem": "2.57.2"
+  }
+}

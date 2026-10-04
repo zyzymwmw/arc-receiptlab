@@ -1,0 +1,9 @@
+{
+  "name": "@receiptlab/receipt-check-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@receiptlab/core": "0.1.0"
+  }
+}
