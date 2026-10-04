@@ -2,6 +2,8 @@
 
 A read-only USDC receipt debugger and reusable TypeScript parser for developers integrating Arc payments. Inspect what moved, trace it back to the logs, and keep transfer volume separate from gas.
 
+**Live app:** [Open ReceiptLab](https://arc-receiptlab.just-duck-9698.chatgpt.site) · [Captioned demo](https://arc-receiptlab.just-duck-9698.chatgpt.site/demo.webm) · [Application draft](docs/submission.md)
+
 **Mainnet example:** [one 1.5 USDC transfer](https://explorer.arc.io/tx/0xdb3408e5ed4965c0e402718ee9e81589e17688b485dd29b2f81cb78996418643), represented by an 18-decimal system event and a 6-decimal ERC-20 event. Adding both streams would incorrectly report 3 USDC. ReceiptLab retains both evidence records and counts the system movement once.
 
 Arc-specific rules matter here: native USDC movements use a system emitter, ERC-20 activity adds a second event stream, and outer gas uses USDC units. A generic ERC-20 event counter can double-count ERC-20 activity or miss native movements.

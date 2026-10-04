@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-10-04T14:54:39.482Z",
+  "url": "https://arc-receiptlab.just-duck-9698.chatgpt.site/",
+  "freshContext": true,
+  "preloadedStorage": false,
+  "title": "Arc ReceiptLab — USDC Receipt Debugger",
+  "source": "Live mainnet response\nRetrieved Oct 4, 2026, 2:54:39 PM UTC · Parser 0.1.0\nSuccessful receipt",
+  "volume": "1.5 USDC",
+  "gas": "0.00312918156459 USDC",
+  "methods": [
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt",
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt",
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt",
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt"
+  ],
+  "errors": [],
+  "results": [
+    {
+      "caseName": "Native transfer",
+      "amount": "100.42007099937 USDC",
+      "source": "Live mainnet response\nRetrieved Oct 4, 2026, 2:57:07 PM UTC · Parser 0.1.0\nSuccessful receipt"
+    },
+    {
+      "caseName": "Multiple movements",
+      "amount": "0.005459 USDC",
+      "source": "Live mainnet response\nRetrieved Oct 4, 2026, 2:57:08 PM UTC · Parser 0.1.0\nSuccessful receipt"
+    },
+    {
+      "caseName": "ERC-20 transfer",
+      "amount": "1.5 USDC",
+      "source": "Live mainnet response\nRetrieved Oct 4, 2026, 2:57:08 PM UTC · Parser 0.1.0\nSuccessful receipt"
+    }
+  ]
+}

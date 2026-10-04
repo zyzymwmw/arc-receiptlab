@@ -24,7 +24,8 @@
     "verify:mainnet": "npm run build:core && tsx scripts/verify-mainnet.ts",
     "verify:package": "npm run build:core && tsx scripts/verify-package.ts",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "demo:record": "node scripts/record-demo.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",

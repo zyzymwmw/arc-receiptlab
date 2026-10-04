@@ -1,0 +1,29 @@
+{
+  "recordedAt": "2026-10-04T15:19:20.880Z",
+  "url": "https://arc-receiptlab.just-duck-9698.chatgpt.site",
+  "format": "WebM/VP8",
+  "size": "1440x1000",
+  "narration": "English on-screen captions; no voice audio",
+  "narrationSeconds": 108.001,
+  "rawCaptureDurationSeconds": 121.04,
+  "trimRequestedSeconds": 13,
+  "removedLeadingDurationSeconds": 10.24,
+  "trimmedDurationSeconds": 110.8,
+  "artifactDurationSeconds": 110.916,
+  "deliveryEncoding": "VP8, 1440x1000 at 12 fps; lower bitrate, no playback acceleration",
+  "trimMethod": "WebM packet copy at the retained keyframe boundary; no speed or data changes",
+  "playbackVerification": "Chromium loaded metadata and sought through the live, evidence, reuse and scope chapters",
+  "source": "Real published UI; live read-only queries of existing transactions",
+  "methods": [
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt",
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt",
+    "eth_chainId",
+    "eth_getTransactionByHash",
+    "eth_getTransactionReceipt"
+  ],
+  "overlay": "Explanatory captions added for this recording, not application UI"
+}
